@@ -18,5 +18,5 @@ class Artist
   def genres
     self.songs.collect { |e| e.genre }
   end
-  
+
 end
