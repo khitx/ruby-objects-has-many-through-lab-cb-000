@@ -10,10 +10,6 @@ class Genre
       @songs << song
     end
 
-#    def songs
-#      @songs
-#    end
-
     def artists
       @songs.collect { |e| e.artist  }
     end
